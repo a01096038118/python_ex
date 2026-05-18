@@ -1,0 +1,36 @@
+# from datetime import datetime
+# dayNum = datetime.today().day
+
+# carNumber = int(input('차량 번호 입력: '))
+# print(f'오늘 날짜: {dayNum}')
+# if dayNum % 2 == 0:
+#     print(f'오늘 입차: 차량 번호가 짝수인 차량')
+
+# else:
+#     print(f'오늘 입차: 차량 번호가 홀수인 차량')
+
+#     if carNumber % 2 ==1 == dayNum % 2 == 1:
+#         print(f'차량 출입이 가능합니다.')
+
+#     else:
+#         print(f'차량 출입이 불가합니다.')    
+
+# 1부터 16까지의 숫자중 짝수 2,4,6,8,10,12 나타내기
+# for num in range(1,17):
+#     if num <= 13 and num % 2 == 0:
+#         print(f'num: {num}')
+
+# 사용자가 원하는 구구단을 입력하면 해당 구구단을 출력해보기
+# userInput = int(input('숫자 입력: '))
+# for data in range(1,10):
+#     print(f'{userInput} x {data}: {userInput * data}')
+
+hobbies =[]
+while True:
+    hobby = input('취미입력: ')
+    hobbies.append(hobby)
+    print(f'hobbies: {hobbies}')
+    selectNum = int(input('1. 취미 추가:   2. 종료 '))
+    if selectNum == 2:
+        print(f'총 개수: {len(hobbies)}')
+        break
