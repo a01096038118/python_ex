@@ -47,10 +47,44 @@
 # print(f'총 구매 금액: {totalPrice}')
 # print('=' * 40)
 
-count = 0
-def increase():
+# count = 0
+# def increase():
+#     global count
+#     count = count +1
+#     print(count)
 
-    count = count +1
-    print(count)
+# increase()
 
-increase()
+# age = 25
+# print(f'age: {age}')
+
+
+# student = {                    # student 라는 변수값 안에 데이터를 갖고있다.
+#     '이름': '홍길동',
+#     '나이': 25
+# }
+
+# print(f'나이: {student['나이']}')
+
+# def modifyStudentAge():
+#     student['나이'] += 1
+# modifyStudentAge()
+
+student01 = {            # 얕은 복사
+    '이름': '홍길동',
+    '나이': 25
+}
+
+student02 = student01
+student01['나이'] = 100
+print(student02['나이'])
+
+import copy              # 깊은 복사
+student01 = {
+    '이름': '홍길동',
+    '나이': 25
+}
+student02 = copy.deepcopy(student01)
+
+student01['나이'] = 1000
+print(student02['나이'])

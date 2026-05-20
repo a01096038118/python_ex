@@ -126,38 +126,39 @@
 #     introJap()
 
 # quiz) 계산기 프로그램 by 함수
-'''
-사용자가 숫자 2개를 입력하고 연산자를 선택하면 연산결과가 출력되는
-프로그램을 함수를 이용해서 만들어봅시다.
-'''
-def add():
-    print(f'덧셈 결과: {inputNumber1 + inputNumber2}')
+# '''
+# 사용자가 숫자 2개를 입력하고 연산자를 선택하면 연산결과가 출력되는
+# 프로그램을 함수를 이용해서 만들어봅시다.
+# '''
+# def add():
+#     print(f'덧셈 결과: {inputNumber1 + inputNumber2}')
 
-def sub():
-    print(f'뺄셈 결과: {inputNumber1 - inputNumber2}')
+# def sub():
+#     print(f'뺄셈 결과: {inputNumber1 - inputNumber2}')
 
-def mul():
-    print(f'곱셈 결과: {inputNumber1 * inputNumber2}')
+# def mul():
+#     print(f'곱셈 결과: {inputNumber1 * inputNumber2}')
 
-def div():
-    print(f'나눗셈 결과: {inputNumber1 / inputNumber2}')
+# def div():
+#     print(f'나눗셈 결과: {inputNumber1 / inputNumber2}')
 
 
-def calculator():
-    if selectedOperator == 1:
-        add()
+# def calculator():
+#     if selectedOperator == 1:
+#         add()
 
-    elif selectedOperator == 2:
-        sub()
+#     elif selectedOperator == 2:
+#         sub()
 
-    elif selectedOperator == 3:
-        mul()
+#     elif selectedOperator == 3:
+#         mul()
 
-    elif selectedOperator == 4:
-        div()
+#     elif selectedOperator == 4:
+#         div()
 
-inputNumber1 = float(input('숫자 입력: '))
-selectedOperator = int(input('연산자를 선택하세요. 1.덧셈   2.뺄셈   3.곱셈   4.나눗셈'))
-inputNumber2 = float(input('숫자 입력: '))
+# inputNumber1 = float(input('숫자 입력: '))
+# selectedOperator = int(input('연산자를 선택하세요. 1.덧셈   2.뺄셈   3.곱셈   4.나눗셈'))
+# inputNumber2 = float(input('숫자 입력: '))
 
-calculator()
+# calculator()
+
