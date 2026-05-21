@@ -252,7 +252,6 @@ while flag:
 
         print(f'myProfile: {myProfile}')
 
-        # myProfile.append(profile)
         print('회원가입 성공')
 
     elif selectNum == 2:
@@ -282,5 +281,5 @@ while flag:
     elif selectNum == 4:
         print(f'myProfile: {myProfile}')
     else:
-        newEmail = myProfile['uEmail'] = 'gildong@gmail.com'
+        newEmail = myProfile['uEmail'] = 'r1yoon_02@gmail.com'
         print(f'newEmail: {newEmail}')
