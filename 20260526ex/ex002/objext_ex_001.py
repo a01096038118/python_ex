@@ -9,7 +9,7 @@
 
 #     # 기능(function, method)
 #     def makeFishBread(self):     # 클래스 기능 정의 
-#         print('붕어빵 제조')      # self 매개변수
+#         print('붕어빵 제조')       # self 매개변수
 
 # # 붕어빵 클래스로부터 객체를 만들어 봅시다.(객체 생성, 딕셔너리)
 # myFishBread = FishBread('팥', '밀가루')         # 초기에 생성될때의 값들을 넣어준다.
@@ -105,8 +105,8 @@ class MyNudle:
         print('봉지라면')
 
     def MakeNudle(self):
-        print(f'라면 제료: {self.soup}')
-        print(f'라면 제료: {self.nudle}')
+        print(f'라면 재료: {self.soup}')
+        print(f'라면 재료: {self.nudle}')
 
 myNudleitem = MyNudle('hot_soup','nudle')
 friendNudleitem = MyNudle('soup','large_nudle')
@@ -150,4 +150,12 @@ class Triangle:
     def __init__(self, width, height):
         self.width = width
         self.height = height
-        
+
+    def getArea(self):
+        area = (self.width * self.height) /6
+        print(f'삼각형 면적: {area}')
+    
+triangle1 = Triangle(32, 48)
+
+triangle1.getArea()
+
